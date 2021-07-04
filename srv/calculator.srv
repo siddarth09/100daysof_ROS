@@ -1,0 +1,5 @@
+int64 a
+int64 b
+string symbol
+-------
+int64 result
