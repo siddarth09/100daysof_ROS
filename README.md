@@ -11,3 +11,6 @@ I publish the difference between initial position and final position using POINT
 
 # DAY 3:
 here i have used a custom message LDR, which can be used with sensors either with a rasberry pi or arduino(rosserial). The ldrpub gets the sensor value (which i will be doing on day 20 with sensors) and publishes, while the ldrlist subcribes to LDR_SENSOR topic and displays the value 
+
+# DAY 4:
+today I created a custom srv file to use for my calculator, the calserver gets the request from calclient, calculates according to the operation the user needs and sends back the response for the client.
