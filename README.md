@@ -14,3 +14,7 @@ here i have used a custom message LDR, which can be used with sensors either wit
 
 # DAY 4:
 today I created a custom srv file to use for my calculator, the calserver gets the request from calclient, calculates according to the operation the user needs and sends back the response for the client.
+
+# DAY 5:
+Following the same procedure for srv file, today I created a DHT11 srv file for dht11 server and client operations 
+
