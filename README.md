@@ -18,3 +18,8 @@ today I created a custom srv file to use for my calculator, the calserver gets t
 # DAY 5:
 Following the same procedure for srv file, today I created a DHT11 srv file for dht11 server and client operations 
 
+# DAY 6:
+Teleoppub.py can be used to control the turtle to move in any direction as possible.To start turtlesim we can use, rosrun turtlesim turtlesim_node
+
+
+
