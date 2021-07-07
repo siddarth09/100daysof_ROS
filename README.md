@@ -21,7 +21,7 @@ Following the same procedure for srv file, today I created a DHT11 srv file for 
 # DAY 6:
 Teleoppub.py can be used to control the turtle to move in any direction as possible.To start turtlesim we can use, rosrun turtlesim turtlesim_node.
 
-#DAY 7:
+# DAY 7:
 we can use the code to tell the turtle to swim in a straight line, the straight.py publishes on cmd_vel topic and subcribes to pose topic for X and Y corrdinates
 the distance is measured using euclidean distance formula.
 
