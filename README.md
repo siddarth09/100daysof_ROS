@@ -27,4 +27,9 @@ the distance is measured using euclidean distance formula.
 # DAY 8:
 using the geometry_msgs and turtlesim's Pose msg we use the publisher and subcriber to communicate and help the turtle rotate around its fixed axis
 
+# DAY 9:
+Using Day 6 and 7 algorithms, I have a created a basic algorithm to make the turtle swim and draw a square pattern, here I have also used how to use LAUNCH files
+
+
+
 
