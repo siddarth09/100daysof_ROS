@@ -28,7 +28,14 @@ the distance is measured using euclidean distance formula.
 using the geometry_msgs and turtlesim's Pose msg we use the publisher and subcriber to communicate and help the turtle rotate around its fixed axis
 
 # DAY 9:
+we tell the turtle to move to specific goal using geometry_msg topic 
+
+# DAY 10:
 Using Day 6 and 7 algorithms, I have a created a basic algorithm to make the turtle swim and draw a square pattern, here I have also used how to use LAUNCH files
+
+# DAY 11:
+Today we wil start with arduino and rosserial, we use rosserial command to connect with the avr to control led pins attached.
+
 
 
 
