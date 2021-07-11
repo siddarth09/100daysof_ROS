@@ -47,18 +47,19 @@ find_package(catkin REQUIRED COMPONENTS
 ##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)
 
 ## Generate messages in the 'msg' folder
-# add_message_files(
-#   FILES
-#   Message1.msg
-#   Message2.msg
-# )
+add_message_files(
+   FILES
+   LDR.msg
+   
+ )
 
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   Service1.srv
-#   Service2.srv
-# )
+ add_service_files(
+   FILES
+   calculator.srv
+   DHT11.srv
+   
+ )
 
 ## Generate actions in the 'action' folder
 # add_action_files(
@@ -160,10 +161,17 @@ include_directories(
 ## Mark executable scripts (Python etc.) for installation
 ## in contrast to setup.py, you can choose the destination
  catkin_install_python(PROGRAMS
-   src/DAY1/helloworldpub.py
-   src/DAY1/helloworldlist.py
-   src/DAY2/publisher.py
-   src/DAY2/sub1.py
+   src/DAY3/ldrpub.py 
+   src/DAY3/ldrlist.py 
+   src/DAY4/calclient.py
+   src/DAY4/calserver.py
+   src/DAY5/Dht11server.py
+   src/DAY5/Dht11client.py
+   src/DAY6/teleoppub.py
+   src/DAY7/straight.py
+   src/DAY8/rotate.py 
+   src/DAY9/goal.py 
+   src/DAY10/square.py
 
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
  )
