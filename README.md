@@ -36,6 +36,9 @@ Using Day 6 and 7 algorithms, I have a created a basic algorithm to make the tur
 # DAY 11:
 Today we wil start with arduino and rosserial, we use rosserial command to connect with the avr to control led pins attached.
 
+# DAY 12:
+We connect the DHT11 and create a publisher node, then we subcribe to the publisher of dht11 to display the temperature data recieved.
+
 
 
 
