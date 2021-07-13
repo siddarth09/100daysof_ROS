@@ -39,6 +39,9 @@ Today we wil start with arduino and rosserial, we use rosserial command to conne
 # DAY 12:
 We connect the DHT11 and create a publisher node, then we subcribe to the publisher of dht11 to display the temperature data recieved.
 
+# DAY 13:
+Ultrasound sensors, Today we take the input from the ultrasound sensor and publish the range, the sensor_msgs/Range collects the information.The subscriber node is created to lock on the ultrasound sensor to retrieve the sensor data.
+
 
 
 
