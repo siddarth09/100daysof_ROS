@@ -41,7 +41,8 @@ We connect the DHT11 and create a publisher node, then we subcribe to the publis
 
 # DAY 13:
 Ultrasound sensors, Today we take the input from the ultrasound sensor and publish the range, the sensor_msgs/Range collects the information.The subscriber node is created to lock on the ultrasound sensor to retrieve the sensor data.
-
+# DAY 14:
+Servo motors, the servo is subcribed to "servo" topic while the publisher node publishes the angle of rotation, the servo motor starts rotating.
 
 
 
