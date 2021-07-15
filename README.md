@@ -46,6 +46,9 @@ Ultrasound sensors, Today we take the input from the ultrasound sensor and publi
 # DAY 14:
 Servo motors, the servo is subcribed to "servo" topic while the publisher node publishes the angle of rotation, the servo motor starts rotating.
 
+# DAY 15:
+LDR, Using the msg file created on DAY 3, I used this to get the intensity form LDR sensor
+
 
 
 
