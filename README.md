@@ -47,7 +47,10 @@ Ultrasound sensors, Today we take the input from the ultrasound sensor and publi
 Servo motors, the servo is subcribed to "servo" topic while the publisher node publishes the angle of rotation, the servo motor starts rotating.
 
 # DAY 15:
-LDR, Using the msg file created on DAY 3, I used this to get the intensity form LDR sensor
+LDR, Using the msg file created on DAY 3, I used this to get the intensity form LDR sensor.
+
+# DAY 16:
+speed control of DC Motors with pwm passed though geometry_msgs msg file.The subscriber gets the speed of the motor at that period of time and displays it 
 
 
 
