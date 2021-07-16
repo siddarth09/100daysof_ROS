@@ -161,6 +161,10 @@ include_directories(
 ## Mark executable scripts (Python etc.) for installation
 ## in contrast to setup.py, you can choose the destination
  catkin_install_python(PROGRAMS
+   src/DAY1/helloworldlist.py
+   src/DAY1/helloworldpub.py 
+   src/DAY2/publisher.py 
+   src/DAY2/sub1.py
    src/DAY3/ldrpub.py 
    src/DAY3/ldrlist.py 
    src/DAY4/calclient.py
@@ -171,7 +175,12 @@ include_directories(
    src/DAY7/straight.py
    src/DAY8/rotate.py 
    src/DAY9/goal.py 
-   src/DAY10/square.py
+   src/DAY10/square.py 
+   src/DAY12/sensor_sub.py
+   src/DAY13/ultrasoundsub.py
+   src/DAY14/servopub.py
+   src/DAY16/motorpublisher.py
+   src/DAY16/motorsub.py
 
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
  )
