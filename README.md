@@ -52,6 +52,9 @@ LDR, Using the msg file created on DAY 3, I used this to get the intensity form 
 # DAY 16:
 speed control of DC Motors with pwm passed though geometry_msgs msg file.The subscriber gets the speed of the motor at that period of time and displays it 
 
+# DAY 17:
+basic conversion of roll,pitch and yaw into quarternion coordinate format using tf package 
+
 
 
 
