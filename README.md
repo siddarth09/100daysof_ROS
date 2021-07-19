@@ -58,6 +58,8 @@ basic conversion of roll,pitch and yaw into quarternion coordinate format using 
 # DAY 18:
 Built map using SLAM(gmapping) techniques for turtlebot3 maze.
 
+# DAY 19:
+when a robot is moving or a manipulator is grasping, many frames are acting at different origins, to get the transformation data of a target frame from a source frame. We use static transforms to get the translation and rotation of the target frame to the source frame.Here the broadcaster node finds the above-mentioned transform and sends the data to the base station.
 
 
 
