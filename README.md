@@ -61,5 +61,11 @@ Built map using SLAM(gmapping) techniques for turtlebot3 maze.
 # DAY 19:
 when a robot is moving or a manipulator is grasping, many frames are acting at different origins, to get the transformation data of a target frame from a source frame. We use static transforms to get the translation and rotation of the target frame to the source frame.Here the broadcaster node finds the above-mentioned transform and sends the data to the base station.
 
+# DAY 20:
+Used turtlebot3 nav stack to navigate the waffle around the world using rviz
+
+# DAY 21:
+used turtlebot3 SLAM stack to map the house using gmapping methods.
+
 
 
