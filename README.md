@@ -67,5 +67,8 @@ Used turtlebot3 nav stack to navigate the waffle around the world using rviz
 # DAY 21:
 used turtlebot3 SLAM stack to map the house using gmapping methods.
 
+# DAY 22:
+Today I used go to goal,algorithm used for turtlesim.The waffle bot will move to a specific location but here it will not avoid any obstacles 
+
 
 
