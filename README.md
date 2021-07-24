@@ -68,7 +68,14 @@ Used turtlebot3 nav stack to navigate the waffle around the world using rviz
 used turtlebot3 SLAM stack to map the house using gmapping methods.
 
 # DAY 22:
-Today I used go to goal,algorithm used for turtlesim.The waffle bot will move to a specific location but here it will not avoid any obstacles 
+Today I used go to goal,algorithm used for turtlesim.The waffle bot will move to a specific location but here it will not avoid any obstacles.
+
+# DAY 23:
+Using laser scan data sent by the Lidar on the bot, we get the data while the bot is moving with teleoperation.
+
+# DAY 24:
+Simple ways to get the position data, using nav_msgs/Odometry. we will see more of this use cases when we start Lidar based navigation 
+
 
 
 
