@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   message_generation
+  actionlib_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -62,17 +63,18 @@ add_message_files(
  )
 
 ## Generate actions in the 'action' folder
-# add_action_files(
-#   FILES
-#   Action1.action
+add_action_files(
+  FILES
+   washdishes.action
 #   Action2.action
-# )
+ )
 
 ## Generate added messages and services with any dependencies listed here
-# generate_messages(
-#   DEPENDENCIES
-#   std_msgs  # Or other packages containing msgs
-# )
+ generate_messages(
+   DEPENDENCIES
+   std_msgs
+   actionlib_msgs# Or other packages containing msgs
+ )
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
@@ -181,6 +183,14 @@ include_directories(
    src/DAY14/servopub.py
    src/DAY16/motorpublisher.py
    src/DAY16/motorsub.py
+   src/DAY17/tf_transform.py 
+   src/DAY19/static_tf_broadcaster.py 
+   src/DAY19/basestation.py
+   src/DAY22/tb3_movement.py 
+   src/DAY23/laser_data.py
+   src/DAY24/position_data.py
+   src/DAY25/actionserver.py
+   src/DAY25/actionclient.py 
 
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
  )
