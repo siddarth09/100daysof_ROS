@@ -1,0 +1,8 @@
+#goal
+int32 number_of_minutes
+---------------
+#result
+string[] dishes_washed
+----------------
+#feedback
+string last_dish
