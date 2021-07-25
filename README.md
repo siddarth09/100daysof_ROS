@@ -74,7 +74,10 @@ Today I used go to goal,algorithm used for turtlesim.The waffle bot will move to
 Using laser scan data sent by the Lidar on the bot, we get the data while the bot is moving with teleoperation.
 
 # DAY 24:
-Simple ways to get the position data, using nav_msgs/Odometry. we will see more of this use cases when we start Lidar based navigation 
+Simple ways to get the position data, using nav_msgs/Odometry. we will see more of this use cases when we start Lidar based navigation.
+
+# DAY 25:
+action server and client, are used for asynchronous way of communication, here the dishwasher example is used for simple action server and aaction client mechanishm 
 
 
 
