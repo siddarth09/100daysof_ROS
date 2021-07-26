@@ -1,0 +1,9 @@
+#goal
+string pizza
+int32 number_of_pizza
+---------------
+#result
+string[] pizzas
+-------------
+#feedback
+string last_pizza 
