@@ -79,6 +79,12 @@ Simple ways to get the position data, using nav_msgs/Odometry. we will see more 
 # DAY 25:
 action server and client, are used for asynchronous way of communication, here the dishwasher example is used for simple action server and aaction client mechanishm 
 
+# DAY 26:
+I used the same concept of action server and action client, with an example of pizza delivery 
+
+# DAY 27:
+Used open cv to perfom simple operations on images 
+
 
 
 
