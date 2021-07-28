@@ -85,6 +85,9 @@ I used the same concept of action server and action client, with an example of p
 # DAY 27:
 Used open cv to perfom simple operations on images 
 
+# DAY 28:
+Performed basic images processing techniques such as scaling,color to black and white, thresholding, edge detecting, and rotating 
+
 
 
 
