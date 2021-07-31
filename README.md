@@ -88,6 +88,16 @@ Used open cv to perfom simple operations on images
 # DAY 28:
 Performed basic images processing techniques such as scaling,color to black and white, thresholding, edge detecting, and rotating 
 
+# DAY 29:
+Simple face recognition algorithm using viola-jones algorithm 
+
+# DAY 30:
+visualization of camera view as seen through the eyes of the turtlebot using RQT image_view
+<rosrun rqt_image_view rqt_image_view>
+
+# DAY 31
+using color filtering and contour detection, detected a tennis ball 
+
 
 
 
