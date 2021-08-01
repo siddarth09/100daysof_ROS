@@ -93,10 +93,14 @@ Simple face recognition algorithm using viola-jones algorithm
 
 # DAY 30:
 visualization of camera view as seen through the eyes of the turtlebot using RQT image_view
-<rosrun rqt_image_view rqt_image_view>
 
-# DAY 31
-using color filtering and contour detection, detected a tennis ball 
+# DAY 31:
+using color filtering and contour detection, detected a tennis ball.
+
+# DAY 32:
+
+Using cv_bridge, I tried getting the image from the camera of the turtlebot and then use in my code with help of cv_bridge
+
 
 
 
