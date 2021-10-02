@@ -105,7 +105,14 @@ using the laser scanner, I move the robot in the gazebo evironment, by avoiding 
 
 
 
-## ** 100 DAYS OF ROS continued with PROJECT ARJUN **
+## **100 DAYS OF ROS continued with PROJECT ARJUN **
+
+
+# DAY 90:
+
+Numpy or numerical python,consists of multidimensional array object and a collection of routines for processing of array. Here I learnt basics function of numpy which can be used to implement concepts of localization, path planning and SLAM algorithms
+
+
 
 
 
